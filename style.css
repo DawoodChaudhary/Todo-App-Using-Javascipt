@@ -1,0 +1,68 @@
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+border: black;
+margin: 0%;
+padding: 0%;
+height: 100vh;
+background-color:#C5fff8
+}
+h1{
+display: flex;  
+text-align: center;
+margin-right: 50px;
+color: #187498;
+}
+
+#todoInput{
+background-color:mediumspringgreen ;
+font-size: 250%
+}
+
+
+#addBtn{
+background-color: blue;
+color: aliceblue;
+cursor: pointer;
+font-size: 40px;
+}
+
+#saveBtn{
+background-color: purple;
+color: aliceblue;
+font-size: 80px;
+
+}
+
+#deleteAllBtn{
+background-color:#F9D923;
+color:black;
+cursor: pointer;
+font-size: 40px;
+height: 100px;
+}
+
+.bg-red{
+background-color:#EB5353;
+font-size: 30px;
+height: auto;
+padding: auto;
+border-radius: 25px;
+display: inline;
+display: flex;
+align-items: self-start;
+}
+
+.bg-green {
+background-color:#36AE7C ;
+margin-left: 0px;
+font-size: 30px;
+height: auto;
+padding-left: 20%;
+border-radius: 25px;
+width: 100px;
+display: inline;
+display: flex;
+align-items: self-end;
+}
